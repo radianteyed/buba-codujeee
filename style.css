@@ -1,0 +1,103 @@
+body {
+    background-color: #333333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+    margin-top: 50px;
+    width: 1000px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+}
+
+#logo {
+    background-color: #222222;
+    margin-top: 10px;
+    width: 990px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+#menu {
+    background-color: #111111;
+    margin-top: 10px;
+    width: 1000px;
+    height: 50px;
+    color: white;
+}
+
+.listmenu {
+    padding: 15px;
+    padding-left: 20px;
+    float: left;
+    cursor: pointer;
+    border-right: 2px dotted #444444;
+}
+
+.listmenunone {
+    border-right: none;
+}
+
+.listmenu:hover {
+    background-color: #666666;
+}
+
+#topbar {
+    margin-top: 10px;
+    width: 1000px;
+    height: 80px;
+}
+
+#sidebar {
+    margin-top: 10px;
+    background-color: #999999;
+    width: 250px;
+    height: 620px;
+    float: left;
+}
+
+.list {
+    font-size: 20px;
+    height: 30px;
+    color: white;
+    font-weight: 300;
+    padding: 20px;
+    letter-spacing: 1px;
+    border-bottom: 2px dotteed #111111;
+}
+
+.list:hover {
+    background-color: orangered;
+    cursor: pointer;
+}
+
+#content {
+    margin-top: 10px;
+    background-color: #777777;
+    margin-left: 10px;
+    width: 690px;
+    height: 570px;
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    padding: 25px;
+}
+
+#footer {
+    margin-top: 10px;
+    background-color: #888888;
+        height: 40px;
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+   width: 100%;
+}
